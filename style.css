@@ -78,12 +78,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
 
   flex-grow: 1;
-
-
-
   
 }
 
@@ -96,11 +93,13 @@
   flex-wrap: wrap;
   gap: 5px;
 
+
 }
 
 
 .poductCard .detailes h2{
   font-size: 30px;
+  text-align: center;
 }
 .poductCard .detailes p{
   padding: 10px;
@@ -109,22 +108,30 @@
 
 }
 
-
-
-.poductCard .detailes .prt .contain{
+.poductCard .detailes .price{
 
   padding: 5px 10px;
 
-  border-radius: 5px;
+  text-align: center;
+  gap: 20px 10px;
+
+
+}
+
+
+.poductCard .detailes .contain{
+
+  padding: 5px 10px;
 
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
   gap: 20px 10px;
 
   flex-grow: 1;
+  
 
 }
 
@@ -135,7 +142,7 @@
 
 
 
-.poductCard .detailes .prt span{
+.poductCard .detailes  span{
   font-size: 18px;
   font-weight: 600;
 }
