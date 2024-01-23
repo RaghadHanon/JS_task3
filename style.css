@@ -3,10 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.poductCard:hover {
+
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  transform: scale(1.01);
+
+  transition: 0.7s;
+}
+
 .products{
   display: flex;
   justify-content: center;
   background-image: linear-gradient(90deg, rgba(50, 212, 223, 0.66) 10%, rgba(117, 165, 237, 0.72) 82%);
+  
   padding: 100px;
 }
 .container{
