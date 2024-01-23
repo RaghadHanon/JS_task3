@@ -6,14 +6,14 @@
 .products{
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(225deg, rgba(50, 212, 223, 0.5) 10%, rgba(104, 157, 237, 0.55) 82%);
-
+  background-image: linear-gradient(90deg, rgba(50, 212, 223, 0.66) 10%, rgba(117, 165, 237, 0.72) 82%);
+  padding: 100px;
 }
 .container{
-  width: calc(100% - 300px);
-  background-color: beige;
+  width: calc(100% - 200px);
 
-  margin-top: 5%;
+  background-image: linear-gradient(270deg, rgba(50, 212, 223, 0.66) 10%, rgba(117, 165, 237, 0.72) 82%);
+
 
   border-radius: 20px;
 
@@ -29,31 +29,32 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
-  padding: 100px;
+  padding: 50px;
 
-  gap: 50px;
+  gap: 30px;
 
 }
 
 .poductCard{
-  width: calc((100% - 100px)/2);
+  width: calc((100% - 60px)/3);
 
   
-  background-color: #fff8f0;
-
+  background-color: #ffffff;
   border-radius: 10px;
   
-  box-shadow: 15px 0px 40px 0px #7893bd;
+  box-shadow: 15px 0px 40px 0px #a3badf;
 
-  padding: 30px;
+  padding: 20px;
 
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 25px;
+  
 }
 .poductCard img {
   width: 100%;
-  height: 350px;
+  height: 250px;
 
   border-radius: 10px;
 }
@@ -61,38 +62,65 @@
   
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 20px;
+
+  flex-grow: 1;
+
+
+
   
 }
 
-.poductCard .detailes .prt1 ,.prt2{
+
+.poductCard .detailes .prt{
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 5px;
+
 }
 
 
-.poductCard .detailes .prt1 span{
-  font-size: 22px;
+.poductCard .detailes h2{
+  font-size: 30px;
+}
+.poductCard .detailes p{
+  padding: 10px;
+  flex-grow: 1;
+  font-size: 17px;
+
+}
+
+
+
+.poductCard .detailes .prt .contain{
+
+  padding: 5px 10px;
+
+  border-radius: 5px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px 10px;
+
+  flex-grow: 1;
+
+}
+
+.poductCard .detailes .prt svg{
+  width: 25px;
+  height: 25px;
+}
+
+
+
+.poductCard .detailes .prt span{
+  font-size: 18px;
   font-weight: 600;
-
-  position: relative;
-  top:0;
-}
-
-
-.poductCard .detailes .prt1 span::after{
-  content: '';
-  position: absolute;
-  right:0;
-  bottom: 0;
-
-
-  width: 50px;
-  height: 3px;
-
-  background-color: black;
-
 }
