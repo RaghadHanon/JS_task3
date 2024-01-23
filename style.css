@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.products{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(225deg, rgba(50, 212, 223, 0.5) 10%, rgba(104, 157, 237, 0.55) 82%);
+
+}
+.container{
+  width: calc(100% - 300px);
+  background-color: beige;
+
+  margin-top: 5%;
+
+  border-radius: 20px;
+
+  
+  backdrop-filter: blur(40px);
+  background-color: #61d6dfc0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+
+}
+
+.poductCard{
+  width: calc(100% - 100px);
+  background-color: antiquewhite;
+}
