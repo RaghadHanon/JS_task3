@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   /*background-image: linear-gradient(90deg, rgba(50, 212, 223, 0.66) 10%, rgba(117, 165, 237, 0.72) 82%);*/
-  background-image: linear-gradient(270deg, rgba(127, 246, 254, 0.66) 10%, rgba(190, 216, 255, 0.72) 82%);
+  background-image: linear-gradient(90deg, rgba(127, 246, 254, 0.66) 10%, rgba(190, 216, 255, 0.72) 82%);
   padding: 100px;
 }
 .container{
