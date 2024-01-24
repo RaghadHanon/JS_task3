@@ -121,14 +121,14 @@
 
 .poductCard .detailes .contain{
 
-  padding: 5px 10px;
+  padding: 5px 5px;
 
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
-  gap: 20px 10px;
+  gap: 10px 10px;
 
   flex-grow: 1;
   
@@ -200,6 +200,10 @@
     width:100%;
   }
   
+.poductCard .detailes .contain{
+
+  gap: 10px 3px;
+}
 .container{
   
   width: calc(100% - 60px);
