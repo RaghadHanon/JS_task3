@@ -10,7 +10,8 @@ async function getProducts (){
       <div class="detailes">
         <h2>${ele.title}</h2>
         <p>${ele.description}</p>
-        <div class ='price'>
+        <a href="details.html?product_id=${ele.id}" class='learnMore'>Learn more</a>
+        <div class ='prand'>
              <span>${ele.brand}</span>
         </div>
         <div class="prt">
@@ -26,6 +27,7 @@ async function getProducts (){
              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="#444" d="M12 6V0H4v6H0v7h16V6h-4zm-5 6H1V7h2v1h2V7h2v5zM5 6V1h2v1h2V1h2v5H5zm10 6H9V7h2v1h2V7h2v5zM0 16h3v-1h10v1h3v-2H0v2z"/></svg>
              <span>${ele.stock}</span>
           </div>
+          
           
           
         </div>
